@@ -1,0 +1,3 @@
+# ImportEZ.py
+
+This Python script uses the `ezsheets` library to connect to a specific Google Spreadsheet and print its title to the console. It imports the library, instantiates a `Spreadsheet` object using the provided Google Sheets URL, retrieves the spreadsheet's `title` attribute, and outputs it. The code assumes `ezsheets` is installed and that Google Sheets authentication is configured (via stored credentials or OAuth) to access the target spreadsheet.
